@@ -8,10 +8,7 @@
  * On error, -1 is returned, and error is set appropriately.
  */
 
-int _putchar(char c)
-{
-return putchar(c);
-}
+int _putchar(char c);
 
 /**
  * print_alphabet - print lowercase alphabet
