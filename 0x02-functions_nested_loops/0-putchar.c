@@ -5,11 +5,14 @@
  */
 int main(void)
 {
-char result[] = "_putchar";
-for (int i = 0; i <= sizeof(result) / sizeof(char); i++)
-{
-putchar(result[i]);
-}
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
 putchar('\n');
 return (0);
 }

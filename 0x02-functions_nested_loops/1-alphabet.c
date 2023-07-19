@@ -4,9 +4,11 @@
  */
 void print_alphabet(void)
 {
-for (char i = 'a'; i <= 'z'; i++)
+int i = 'a';
+while (i <= 'z')
 {
 putchar(i);
+i++;
 }
 putchar('\n');
 return (0);
