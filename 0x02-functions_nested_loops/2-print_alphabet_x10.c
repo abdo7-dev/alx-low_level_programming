@@ -8,9 +8,8 @@ for (int j = 0; j < 10; j++)
 {
 for (char i = 'a'; i <= 'z'; i++)
 {
-putchar(i);
+_putchar(i);
 }
-putchar('\n');
+_putchar('\n');
 }
-return (0);
 }
