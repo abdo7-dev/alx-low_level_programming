@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef MAIN
+#define MAIN
 
 /**
  * _putchar - writes the character c to stdout
@@ -8,7 +8,10 @@
  * On error, -1 is returned, and error is set appropriately.
  */
 
-int _putchar(char c);
+int _putchar(char c)
+{
+return putchar(c);
+}
 
 /**
  * print_alphabet - print lowercase alphabet
