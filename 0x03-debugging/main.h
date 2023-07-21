@@ -2,7 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 /**
- * positive_or_negative - tests function that prints if integer is positive or negative
+ * positive_or_negative - prints if integer is positive or negative
  * @i: integer
  * Return: viod
  */
