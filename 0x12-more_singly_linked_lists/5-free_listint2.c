@@ -6,17 +6,17 @@
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *temp;
+listint_t *temp;
 
-	if (!head)
-		return;
-	if (*head)
-	{
-		temp = *head;
-		*head = NULL;
-		free_listint(temp);
-		return;
-	}
+if (!head)
+return;
+if (*head)
+{
+temp = *head;
+*head = NULL;
+free_listint(temp);
+return;
+}
 }
 /**
  * free_listint - frees all the node in a list.
@@ -24,8 +24,8 @@ void free_listint2(listint_t **head)
  */
 void free_listint(listint_t *head)
 {
-	if (!head)
-		return;
-	free_listint(head->next);
-	free(head);
+if (!head)
+return;
+free_listint(head->next);
+free(head);
 }
