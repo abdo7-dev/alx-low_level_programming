@@ -1,4 +1,4 @@
-#include "coding.h"
+#include "main.h"
 
 /**
  * get_bit - function with two arguments

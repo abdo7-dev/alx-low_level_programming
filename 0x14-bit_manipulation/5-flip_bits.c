@@ -1,4 +1,4 @@
-#include "coding.h"
+#include "main.h"
 
 /**
  * flip_bits - function with two arguments

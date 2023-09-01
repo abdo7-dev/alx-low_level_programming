@@ -1,4 +1,4 @@
-#include "coding.h"
+#include "main.h"
 
 /**
  * clear_bit - function with two arguments
