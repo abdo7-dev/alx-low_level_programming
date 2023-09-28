@@ -1,7 +1,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 int _putchar(char c);
-unsigned int binary_to_uint(const char *bin);
+unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int bit);
 int get_bit(unsigned long int bit, unsigned int index);
 int set_bit(unsigned long int *bit, unsigned int index);
